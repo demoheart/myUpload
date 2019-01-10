@@ -8,9 +8,9 @@
                 <ul class="view-list"
                     v-if="fileList.length">
                     <li v-for="(item, index) in fileList"
-                        v-if="item.url"
                         @click="previewImg()"
                         :key="index">
+                        <!-- v-if="item.url" -->
                         <img :src="item.url"
                              alt="">
                     </li>
