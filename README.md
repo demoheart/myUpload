@@ -20,3 +20,6 @@ npm run build --report
 
 For a detailed explanation on how things work, check out the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
 
+参数 | 数据类型 | 描述 | 可选值 | 默认值
+---|---
+url | String | 图片上传的地址 | - | -
