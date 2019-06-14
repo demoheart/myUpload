@@ -113,6 +113,7 @@ export default {
             if ('srcObject' in video) {
                 video.srcObject = stream
             } else {
+                // eslint-disable-next-line no-mixed-operators
                 video.src = window.URL && window.URL.createObjectURL(stream) || stream
             }
             video.play()
